@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plus Egypt | Environmental Consultancy & Sustainable Development</title>
+  <meta name="description" content="Plus Egypt is a pioneering consultancy firm dedicated to fostering sustainable development, environmental conservation, and natural capital accounting in Egypt and the region." />
+  <meta name="keywords" content="environmental consultancy, sustainable development, Egypt, ESG, biodiversity, natural capital, GIZ, UNDP, IUCN" />
+  <meta property="og:title" content="Plus Egypt | Environmental Consultancy" />
+  <meta property="og:description" content="Pioneering Sustainable Solutions for a Greener Tomorrow." />
+  <meta property="og:url" content="https://plusegypt.com" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <img src="https://plusegypt.com/wp-content/uploads/2025/11/cropped-logo_plusegypt.png" alt="Plus Egypt Logo" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='flex';" />
+        <span class="logo-text" id="logo-text" style="display:none;">
+          <span class="logo-plus">Plus</span><span class="logo-egypt">Egypt</span>
+        </span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#clients" class="nav-link">Clients</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+        <svg class="sun-icon" id="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" id="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <a href="tel:+201024635666" class="nav-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.6 4.4 2 2 0 0 1 3.57 2.21l3-.03a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.97 17z"/></svg>
+        +20 102 463 5666
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">Environmental Consultancy · Egypt & MENA</span>
+      <h1 class="hero-title">
+        Pioneering Sustainable<br />
+        <span class="hero-accent">Solutions</span> for a<br />
+        Greener Tomorrow
+      </h1>
+      <p class="hero-subtitle">
+        At Plus Egypt, we integrate environmental conservation, socioeconomic development,
+        and natural capital accounting to build resilient communities and sustainable economies.
+      </p>
+      <div class="hero-actions">
+        <a href="#services" class="btn btn-primary">Explore Our Services</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Partners & Clients</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-cue" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Bridging Environment<br /> & <span class="accent">Development</span></h2>
+          <p class="about-lead">
+            Plus Egypt is a pioneering consultancy firm dedicated to fostering sustainable development and environmental conservation.
+          </p>
+          <p class="about-body">
+            Established with a vision to bridge the gap between economic growth and ecological preservation, we offer a comprehensive portfolio of services designed to address complex challenges at the intersection of environment, economy, and society.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Our Vision</strong>
+                <p>To be a leading catalyst for sustainable development in Egypt and the region, empowering communities and organizations to thrive in harmony with nature.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 19.07a10 10 0 0 1 0-14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 15.54a5 5 0 0 1 0-7.07"/></svg>
+              </div>
+              <div>
+                <strong>Our Mission</strong>
+                <p>To deliver innovative, science-based, and economically viable solutions that promote environmental conservation and integrate the value of natural capital into decision-making.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="visual-card primary-card">
+            <div class="visual-icon">🌿</div>
+            <h3>Environmental Conservation</h3>
+            <p>Protecting ecosystems and conserving biodiversity across Egypt and the MENA region.</p>
+          </div>
+          <div class="visual-card secondary-card">
+            <div class="visual-icon">📊</div>
+            <h3>Natural Capital Accounting</h3>
+            <p>Transforming nature from a passive backdrop into a strategic, measurable asset.</p>
+          </div>
+          <div class="visual-card tertiary-card">
+            <div class="visual-icon">🤝</div>
+            <h3>Community Development</h3>
+            <p>Empowering local communities and enhancing livelihoods across socioeconomic dimensions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-label">What We Offer</div>
+      <div class="section-header">
+        <h2 class="section-title">Our <span class="accent">Services</span></h2>
+        <p class="section-sub">We offer a comprehensive portfolio of services designed to address complex challenges at the intersection of environment, economy, and society.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-index="0">
+          <div class="service-number">01</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Environmental Conservation</h3>
+          <p>Biodiversity conservation, protected area planning, EIA, ecosystem valuation and stakeholder engagement solutions.</p>
+          <div class="service-tags">
+            <span>Biodiversity</span><span>EIA</span><span>Ecotourism</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="1">
+          <div class="service-number">02</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Socioeconomic Assessment</h3>
+          <p>Community development, social impact assessment, gender mainstreaming, livelihood diversification and capacity building.</p>
+          <div class="service-tags">
+            <span>SIA</span><span>CBNRM</span><span>CSR</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="2">
+          <div class="service-number">03</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Natural Capital Assessment</h3>
+          <p>Quantifying ecosystem services, spatial GIS mapping, TNFD/SBTN-aligned biodiversity measurement and nature-positive strategy.</p>
+          <div class="service-tags">
+            <span>TNFD</span><span>GIS</span><span>SBTN</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="3">
+          <div class="service-number">04</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Biodiversity Financing</h3>
+          <p>BIOFIN methodology, green and blue economy strategies, financial feasibility and economic valuation of ecosystems.</p>
+          <div class="service-tags">
+            <span>BIOFIN</span><span>Green Economy</span><span>Finance</span>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="4">
+          <div class="service-number">05</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Corporate Responsibility & ESG</h3>
+          <p>ESG reporting (GRI, SASB), sustainability strategy development, materiality assessments and regulatory advisory.</p>
+          <div class="service-tags">
+            <span>ESG</span><span>GRI</span><span>SASB</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--cta" data-index="5">
+          <div class="cta-content">
+            <div class="cta-icon">💬</div>
+            <h3>Need a Custom Solution?</h3>
+            <p>Let's discuss how we can tailor our expertise to your specific environmental and development challenges.</p>
+            <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLIENTS ===== -->
+  <section class="section clients" id="clients">
+    <div class="container">
+      <div class="section-label">Trusted Partners</div>
+      <div class="section-header">
+        <h2 class="section-title">Our <span class="accent">Clients</span></h2>
+        <p class="section-sub">Since our establishment, we have worked tirelessly to deliver measurable results for our clients. Our portfolio includes partnerships with governmental institutions, international organizations, NGOs, private sector, and local communities.</p>
+      </div>
+      <div class="clients-track-wrapper">
+        <div class="clients-track" id="clients-track">
+          <!-- logos duplicated for infinite scroll -->
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/giz.png" alt="GIZ - Deutsche Zusammenarbeit" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>GIZ</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/biofin.png" alt="BIOFIN - Biodiversity Finance Initiative" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>BIOFIN</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/iucn.png" alt="IUCN" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>IUCN</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/ewbf.png" alt="EWBF" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>EWBF</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/loreal.png" alt="L'Oréal" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>L\'ORÉAL</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/unep.png" alt="UNEP" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>UNEP</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/egyptian-natural-gas.png" alt="EGAS" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>EGAS</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/lekela.png" alt="Lekela" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>Lekela</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/gef.png" alt="GEF - Global Environment Facility" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>GEF</span>'" />
+          </div>
+          <div class="client-logo-item">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/eccsc.png" alt="ECCSC" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>ECCSC</span>'" />
+          </div>
+          <!-- Duplicate set for seamless loop -->
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/giz.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>GIZ</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/biofin.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>BIOFIN</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/iucn.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>IUCN</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/ewbf.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>EWBF</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/loreal.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>L\'ORÉAL</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/unep.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>UNEP</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/egyptian-natural-gas.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>EGAS</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/lekela.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>Lekela</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/gef.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>GEF</span>'" />
+          </div>
+          <div class="client-logo-item" aria-hidden="true">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/eccsc.png" alt="" onerror="this.parentElement.innerHTML='<span class=\'logo-fallback\'>ECCSC</span>'" />
+          </div>
+        </div>
+      </div>
+      <!-- Named client badges -->
+      <div class="clients-named">
+        <div class="client-badge">🇩🇪 GIZ</div>
+        <div class="client-badge">🌿 BIOFIN / UNDP</div>
+        <div class="client-badge">🌍 IUCN</div>
+        <div class="client-badge">🦅 EWBF</div>
+        <div class="client-badge">💄 L'Oréal</div>
+        <div class="client-badge">🌊 UNEP</div>
+        <div class="client-badge">⛽ EGAS</div>
+        <div class="client-badge">💨 Lekela</div>
+        <div class="client-badge">🌐 GEF</div>
+        <div class="client-badge">♻️ ECCSC</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+              <div class="projects-header-flex">
+          <h2 class="section-title">Our <span class="accent">Projects</span></h2>
+          <p class="section-sub">We offer a comprehensive portfolio of services designed to address complex challenges at the intersection of environment, economy, and society.</p>
+        </div>
+        <div class="projects-grid">
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Photo13-1.jpg" alt="Biodiversity Financial Needs Assessment for Egypt" class="project-img" />
+            <h3>Biodiversity Financial Needs Assessment for Egypt</h3>
+            <span class="project-client">UNDP BIOFIN</span>
+          </div>
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Photo12-1.jpg" alt="Biodiversity Expenditure Review for Egypt" class="project-img" />
+            <h3>Biodiversity Expenditure Review for Egypt</h3>
+            <span class="project-client">UNDP BIOFIN</span>
+          </div>
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Picture11-1-420x380.png" alt="EIA Guidelines & Monitoring Protocols for Wind Energy Development" class="project-img" />
+            <h3>Environmental Impact Assessment Guidelines & Monitoring Protocols for Wind Energy Development</h3>
+            <span class="project-client">UNDP/BirdLife International/ EEAA</span>
+          </div>
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Photo10-1.jpg" alt="Environmental Impact Assessment for Lazib Ecolodge" class="project-img" />
+            <h3>Environmental Impact Assessment for Lazib Ecolodge</h3>
+            <span class="project-client">Lazib Ecolodge</span>
+          </div>
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Photo9-1.jpg" alt="Environmental Impact Assessment for Zad El Mosafer Hotel" class="project-img" />
+            <h3>Environmental Impact Assessment for Zad El Mosafer Hotel</h3>
+            <span class="project-client">Zad El Mosafer Hotel</span>
+          </div>
+  
+          <div class="project-card">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/Photo8-1.jpg" alt="Environmental Impact Assessments for Petroleum, Oil, and Gas Projects" class="project-img" />
+            <h3>Environmental Impact Assessments for Petroleum, Oil, and Gas Projects</h3>
+            <span class="project-client">SUCO, BAPETCO, GUPCO, Melrose Egypt, Petrosafe, and other private sector companies.</span>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">Reach Out</div>
+      <div class="section-header">
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        <p class="section-sub">Ready to start a conversation? Reach out and let's explore how we can work together.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.6 4.4 2 2 0 0 1 3.57 2.21l3-.03a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.97 17z"/></svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:+201024635666">(+2) 010 2463 5666</a></p>
+              <p><a href="tel:+201094461297">(+2) 010 9446 1297</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:info@plusegypt.com">info@plusegypt.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Location</strong>
+              <p>Cairo, Egypt</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0d2a1a"/></svg>
+            </a>
+            <a href="https://wa.me/201024635666" class="social-btn" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject" placeholder="How can we help?" />
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Tell us about your project or inquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <img src="https://plusegypt.com/wp-content/uploads/2025/11/cropped-logo_plusegypt.png" alt="Plus Egypt" class="logo-img" onerror="this.style.display='none';" />
+            <span class="logo-text" style="display:flex; margin-top:4px;">
+              <span class="logo-plus">Plus</span><span class="logo-egypt">Egypt</span>
+            </span>
+          </a>
+          <p class="footer-tagline">Pioneering Sustainable Solutions for a Greener Tomorrow.</p>
+          <div class="footer-newsletter">
+            <p><strong>Stay Updated</strong></p>
+            <div class="newsletter-form">
+              <input type="email" id="footer-email" placeholder="Enter your email" />
+              <button type="button" id="subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">Environmental Conservation</a></li>
+            <li><a href="#services">Socioeconomic Assessment</a></li>
+            <li><a href="#services">Natural Capital Accounting</a></li>
+            <li><a href="#services">Biodiversity Financing</a></li>
+            <li><a href="#services">ESG Reporting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:info@plusegypt.com">info@plusegypt.com</a>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.6 4.4 2 2 0 0 1 3.57 2.21l3-.03a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.97 17z"/></svg>
+              <a href="tel:+201024635666">(+2) 010 2463 5666</a>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.6 4.4 2 2 0 0 1 3.57 2.21l3-.03a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.97 17z"/></svg>
+              <a href="tel:+201094461297">(+2) 010 9446 1297</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Plus Egypt. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
